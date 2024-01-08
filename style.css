@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    background-color: #f6ad874c;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #fb9b684c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+nav img {
+    margin-left: 50px;
+    width: 100px;
+    height: auto;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav .menu button {
+    background-color: #ff5900;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.intro .flex-left {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.intro h2 {
+    font-size: 35px;
+}
+
+.intro p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.intro button {
+    background-color: #ff5900;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.intro button:hover {
+    background-color: #0056b3;
+}
+
+.intro .flex-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand_partner {
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.brand_partner h3 {
+    font-size: 30px;
+}
+
+.partner_Section img {
+    height: 130px;
+    width: 100px;
+}
+
+.partner_Section {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: auto;
+    height: 150px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gap {
+    height: 50px;
+}
+
+.abc {
+    margin-top: 2px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.abc h3 {
+    color: #333;
+    font-size: 30px;
+}
+
+.abc_items_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.abc_img img {
+    width: 250px;
+    height: 250px;
+}
+
+.abc_item {
+    text-align: center;
+}
+
+.tool {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.tool1,
+.tool2,
+.tool3,
+.tool4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tool h3 {
+    color: #333;
+    font-size: 28px;
+    width: 350px;
+}
+
+.tool p {
+    color: #555;
+    width: 350px;
+}
+
+.tool button {
+    background-color: #ff5900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.tool img {
+    width: 600px;
+    height: auto;
+}
+
+.tool1_left,
+.tool3_left {
+    margin-right: 400px;
+    margin-left: 20px;
+}
+
+.tool2_right,
+.tool4_right {
+    margin-left: 400px;
+    margin-right: 20px;
+}
+
+.divide_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.divide_section_left img {
+    width: 250px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+.divide_section_left {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    background-color: #dbdedf;
+}
+
+.divide_section_para {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.divide_section_para button,
+.divide_section_right button {
+    background-color: #ff5900;
+    color: white;
+    border: none;
+    padding: 1opx 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+.divide_section_right {
+    background-image: url("./images/r2.png");
+    background-size: 100% auto;
+    flex: 1;
+    width: 500px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #dbdedf;
+    margin-left: 2px;
+}
+
+.book_call {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.book_call button {
+    background-color: #ff5900;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.whyus {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    height: 4%;
+    width: auto;
+    display: flex;
+}
+
+.whyus_vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer button {
+    background-color: #ff5900;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 30px;
+
+}
+
+.oneline {
+    display: flex;
+    border: solid white;
+    border-radius: 50px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.oneline p {
+    margin-left: 10px;
+}
+
+.oneline a {
+    text-decoration: none;
+    color: white;
+}
